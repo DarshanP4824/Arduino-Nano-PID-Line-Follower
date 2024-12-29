@@ -39,7 +39,7 @@ This project is a PID-based line-following robot that uses the Arduino Nano micr
 2. **Upload Code**:
    - Open the Arduino IDE.
    - Select `Arduino Nano` as the board.
-   - Load the `LineFollower.ino` file and upload it.
+   - Load the `PID_Line_Following_Code.ino` file and upload it.
 3. **Calibration**:
    - Press the calibration button (D11) while the robot is over the line.
 4. **Run**:
