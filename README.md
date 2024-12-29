@@ -29,9 +29,8 @@ This project is a PID-based line-following robot that uses the Arduino Nano micr
 ---
 
 ## Circuit Diagram
-Add your circuit diagram image (e.g., `Circuit.png`) here:
 
-![Circuit Diagram](Circuit Diagram/Line Follower Circuit.png)
+![Circuit Diagram](./Circuit%20Diagram/Line%20Follower%20Circuit.png)
 
 ---
 
