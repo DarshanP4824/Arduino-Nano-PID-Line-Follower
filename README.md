@@ -1,7 +1,7 @@
-# Arduino Nano PID Line Follower
+# Arduino Nano based PID Line Follower
 
 ## Description
-This project is a PID-based line-following robot that uses the Arduino Nano microcontroller and a 5-array IR sensor module. The robot detects and follows a white line on a black background with high accuracy and speed.
+This project is a PID-based line-following robot that uses the Arduino Nano microcontroller and a 5-array IR sensor module. The robot detects and follows a white line on a black background with accuracy and speed.
 
 ## Features
 - PID control for precise line following
@@ -24,7 +24,7 @@ This project is a PID-based line-following robot that uses the Arduino Nano micr
 - TB6612FNG Motor Driver
 - Motors and Wheels
 - Chassis
-- 7.4V Li-ion Battery
+- 7.4V Li-ion Battery (11.1V Li-Po Battery is also fine)
 
 ---
 
@@ -39,6 +39,7 @@ This project is a PID-based line-following robot that uses the Arduino Nano micr
 2. **Upload Code**:
    - Open the Arduino IDE.
    - Select `Arduino Nano` as the board.
+   - Install the necessary library from the source 'https://github.com/sparkfun/SparkFun_TB6612FNG_Arduino_Library'.
    - Load the `PID_Line_Following_Code.ino` file and upload it.
 3. **Calibration**:
    - Press the calibration button (D11) while the robot is over the line.
